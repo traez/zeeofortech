@@ -24,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="font-trebuchetMs antialiased flex flex-col min-h-screen">
+    <html lang="en" className="border-[1rem] border-[bisque] h-full">
+      <body className="font-trebuchetMs antialiased flex flex-col h-full border-[3px] border-black">
         {children}
       </body>
     </html>
