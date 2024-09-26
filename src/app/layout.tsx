@@ -1,17 +1,7 @@
 import type { Metadata } from "next";
-// import localFont from "next/font/local";
 import "./globals.css";
-
-/* const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-}); */
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Zeeofor Technologies",
@@ -24,12 +14,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="border-[1rem] border-[bisque] h-full">
-      <body className="font-trebuchetMs antialiased flex flex-col h-full border-[3px] border-black">
-        {children}
+    <html
+      lang="en"
+      className="font-trebuchetMs antialiased flex flex-col h-full border-[10px] border-[#097969]"
+    >
+      <body className="flex flex-col h-full border-[5px] border-black px-4 bg-[url('/background-green-square-pattern.jpg')] bg-contain bg-repeat bg-center">
+        <Header />
+        <main className="flex-grow overflow-auto">{children}</main>
+        <Footer />
       </body>
     </html>
   );
 }
-
-// <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
