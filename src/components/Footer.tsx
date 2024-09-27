@@ -1,4 +1,48 @@
-import { CgMail } from "react-icons/cg";
+import { LuMail } from "react-icons/lu";
+import { FaGithub } from "react-icons/fa";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { SiLeetcode } from "react-icons/si";
+import { SiStackoverflow } from "react-icons/si";
+import { RiTwitterXLine } from "react-icons/ri";
+
+const socialLinks = [
+  {
+    href: "mailto:traezeokafor@gmail.com",
+    title: "Mail",
+    Icon: LuMail,
+    size: "24px",
+  },
+  {
+    href: "https://github.com/traez",
+    title: "GitHub",
+    Icon: FaGithub,
+    size: "22px",
+  },
+  {
+    href: "https://linkedin.com/in/traez/",
+    title: "LinkedIn",
+    Icon: AiOutlineLinkedin,
+    size: "26px",
+  },
+  {
+    href: "https://leetcode.com/u/traezeeofor/",
+    title: "LeetCode",
+    Icon: SiLeetcode,
+    size: "22px",
+  },
+  {
+    href: "https://stackoverflow.com/users/6319061/trae-zeeofor",
+    title: "StackOverflow",
+    Icon: SiStackoverflow,
+    size: "22px",
+  },
+  {
+    href: "https://twitter.com/trae_z",
+    title: "TwitterX",
+    Icon: RiTwitterXLine,
+    size: "22px",
+  },
+];
 
 export default function Footer() {
   return (
@@ -6,56 +50,26 @@ export default function Footer() {
       <div className="">
         © {new Date().getFullYear()} Zeeofor Technologies. All rights reserved.
       </div>
-      <div className="flex gap-[1px]">
-        <a
-          href="mailto:traezeokafor@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Mail"
-          className="hover:bg-[#2c5c4d] p-1 rounded transition duration-300"
-        >
-          <CgMail size="26px"/>
-        </a>
-        <a
-          href="https://github.com/zeeofor"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:bg-[#2c5c4d] p-1 rounded transition duration-300"
-        >
-          GitHub
-        </a>
-        <a
-          href="https://linkedin.com/in/zeeofor"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:bg-[#2c5c4d] p-1 rounded transition duration-300"
-        >
-          LinkedIn
-        </a>
-        <a
-          href="https://twitter.com/zeeofor"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:bg-[#2c5c4d] p-1 rounded transition duration-300"
-        >
-          LeetCode
-        </a>
-        <a
-          href="https://twitter.com/zeeofor"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:bg-[#2c5c4d] p-1 rounded transition duration-300"
-        >
-          StackOverFlow
-        </a>
-        <a
-          href="https://twitter.com/zeeofor"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:bg-[#2c5c4d] p-1 rounded transition duration-300"
-        >
-          Twitter
-        </a>
+      <div className="flex gap-1">
+        {socialLinks.map(({ href, title, Icon, size }) => (
+          <a
+            key={title}
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={title}
+            className="
+              p-1 rounded
+              transition-all duration-300 ease-in-out
+              hover:-translate-x-0.5 hover:-translate-y-0.5
+              hover:shadow-[-2px_2px_0_0_rgba(44,92,77,0.5)]
+              focus:outline-none focus:ring-2 focus:ring-[#2c5c4d] focus:ring-offset-2
+              active:translate-x-0.5 active:translate-y-0.5 active:shadow-none
+            "
+          >
+            <Icon size={size} />
+          </a>
+        ))}
       </div>
     </footer>
   );
