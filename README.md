@@ -62,11 +62,11 @@ Using this ensures that the copyright year updates automatically each year: `© 
 By leveraging Tailwind's utility classes, I created an efficient and visually appealing dropdown interaction. Here’s how to implement it:
 1) Use the group class on the parent element to enable hover effects on child elements.  
 2) Apply these classes to the dropdown container:  
-    invisible: Hides the dropdown by default.  
-    group-hover:visible: Shows the dropdown when the parent is hovered.  
-    opacity-0: Makes the dropdown fully transparent initially.  
-    group-hover:opacity-100: Makes the dropdown fully opaque on hover.  
-    transition-all duration-300: Adds a smooth transition effect.  
+    * `invisible`: Hides the dropdown by default.  
+    * `group-hover:visible`: Shows the dropdown when the parent is hovered.  
+    * `opacity-0`: Makes the dropdown fully transparent initially.  
+    * `group-hover:opacity-100`: Makes the dropdown fully opaque on hover.  
+    * `transition-all duration-300`: Adds a smooth transition effect.  
 The combination of visibility and opacity changes creates a fade-in effect when hovering. This technique provides a clean, CSS-only solution for dropdown menus without requiring JavaScript.   
 
 ### Continued development
