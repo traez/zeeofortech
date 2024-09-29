@@ -21,11 +21,19 @@ export default function Projects() {
 
   return (
     <section className="space-y-6 mx-4">
-      <p className="text-lg font-bold">
-        I&apos;m well-suited to software development as a lifelong learning path
-        because I am constantly building and experimenting with new projects.
-        Below are some of my notable public works.
-      </p>
+      <aside className="p-4 mx-4 text-base font-bold bg-[#9FE2BF] text-gray-800 rounded-lg border-[5px] border-black">
+        <p className="mb-4">
+          Fate destined me to be a software developer, as I can&apos;t resist
+          building and experimenting with new projects. It’s my lifelong quest
+          to drive innovation and improve human experiences—one line of code at
+          a time! Here are some of my notable public works.
+        </p>
+        <p>
+          If you’re looking for someone to turn your ideas into reality, feel
+          free to reach out—I&apos;d love to collaborate for a fee!
+        </p>
+      </aside>
+
       <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4">
         {projectCategories.map((category) => (
           <li key={category}>
