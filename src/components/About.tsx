@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="flex flex-col items-center justify-between">
-      <div className="cursor-pointer relative h-[373px] w-[280px] shadow-[8px_8px_0_0_rgba(0,0,0,0.4)] rounded-2xl">
+    <section className="flex flex-col items-center justify-between gap-4">
+      <div className="cursor-pointer relative h-[298px] w-[224px] sm:h-[373px] sm:w-[280px] shadow-[8px_8px_0_0_rgba(0,0,0,0.4)] rounded-2xl">
         <Image
           src={`/profile-potrait.jpg`}
           alt=""
@@ -13,123 +13,58 @@ export default function About() {
           className="rounded-2xl"
         />
       </div>
-      <section className="mt-4">
-        <p>
-          This is some extra content to ensure that the section is longer than
-          the viewport height. Scroll down to see more content...
+      <article className="p-6 mx-4 text-lg bg-[#9FE2BF] text-gray-800 rounded-lg border-[5px] border-black">
+        <h1 className="text-2xl font-bold mb-4">Hi there, welcome!</h1>
+        <p className="mb-4">
+          I&apos;m <span className="font-semibold">Tochukwu R. Ezeokafor</span>,
+          though I&apos;m better known online by my pseudonym,{" "}
+          <span className="italic text-blue-600">Trae Zeeofor</span>.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-          bibendum, libero id suscipit blandit, orci est cursus dui, vel
-          dignissim erat dolor in nulla.
+        <p className="mb-4">
+          I’m a{" "}
+          <span className="line-through">Sales and Property Management professional</span> turned <span className="font-bold text-blue-600 dark:text-blue-400">Fullstack Software Developer</span>
+          . Yes, I currently{" "}
+          <span className="italic">“code, therefore I am”</span>.{" "}
+          <span role="img" aria-label="wink" className="inline-block">
+            😋
+          </span>
         </p>
-        <p>
-          Curabitur lacinia mi ac metus volutpat, a euismod lectus bibendum.
-          Phasellus venenatis arcu at magna scelerisque, non venenatis mi
-          posuere.
+        <p className="mb-4">
+          Operating under the brand{" "}
+          <span className="font-semibold text-indigo-700">
+            Zeeofor Technologies
+          </span>{" "}
+          out of <span className="font-medium">Abuja, Nigeria</span>, I’m
+          dedicated to using code to solve{" "}
+          <span className="font-medium">real-world problems</span>—whether
+          locally or remotely.
         </p>
-        <p>
-          Praesent non eros ac libero pharetra egestas. Vestibulum non tincidunt
-          nunc. Nulla facilisi. Donec dictum magna ac augue fermentum, id
-          scelerisque orci tincidunt.
+        <p className="mb-4">
+          When I’m not bonding with my son, you’ll probably find me programming
+          and collaborating with others, primarily using the{" "}
+          <span className="font-medium text-green-600">Tailwind CSS</span>,{" "}
+          <span className="font-medium text-blue-500">TypeScript</span>,{" "}
+          <span className="font-medium text-purple-700">React</span>,{" "}
+          <span className="font-medium text-black">Next.js</span>, and{" "}
+          <span className="font-medium text-yellow-600">MongoDB</span> stack.
         </p>
-        <p>
-          Donec vel diam nisl. Aliquam erat volutpat. Morbi volutpat consequat
-          metus, vel varius nisi efficitur ut. Fusce fermentum interdum odio a
-          feugiat.
+        <p className="mb-4">
+          For me,{" "}
+          <span className="font-semibold italic">upskilling never stops</span>;
+          and so I’m currently expanding my knowledge by learning about the{" "}
+          <span className="font-medium text-blue-700">PostgreSQL</span>{" "}
+          relational database management system.
         </p>
-        <p>
-          Integer ut lacus ac dolor dictum dictum. Aliquam erat volutpat. Sed
-          aliquet, nisl ac tincidunt sodales, eros elit ultricies risus, eu
-          tincidunt dui libero at velit.
+        <p className="mt-6">
+          <span className="font-semibold">
+            If you’re as passionate about turning ideas into solutions as I am,
+          </span>{" "}
+          let’s <span className="text-indigo-600 font-bold">connect</span> and{" "}
+          <span className="font-semibold text-green-700">
+            build something amazing together!
+          </span>
         </p>
-        <p>
-          Quisque vitae libero sed purus tincidunt venenatis. Sed sed urna sit
-          amet elit tempor ultricies. Nullam vel felis nec justo varius laoreet.
-        </p>
-        <p>
-          Proin suscipit, nisl non euismod aliquet, massa est facilisis massa,
-          ut consequat nunc neque non elit.
-        </p>
-      </section>
-      <div>
-        <p>
-          This is some extra content to ensure that the section is longer than
-          the viewport height. Scroll down to see more content...
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-          bibendum, libero id suscipit blandit, orci est cursus dui, vel
-          dignissim erat dolor in nulla.
-        </p>
-        <p>
-          Curabitur lacinia mi ac metus volutpat, a euismod lectus bibendum.
-          Phasellus venenatis arcu at magna scelerisque, non venenatis mi
-          posuere.
-        </p>
-        <p>
-          Praesent non eros ac libero pharetra egestas. Vestibulum non tincidunt
-          nunc. Nulla facilisi. Donec dictum magna ac augue fermentum, id
-          scelerisque orci tincidunt.
-        </p>
-        <p>
-          Donec vel diam nisl. Aliquam erat volutpat. Morbi volutpat consequat
-          metus, vel varius nisi efficitur ut. Fusce fermentum interdum odio a
-          feugiat.
-        </p>
-        <p>
-          Integer ut lacus ac dolor dictum dictum. Aliquam erat volutpat. Sed
-          aliquet, nisl ac tincidunt sodales, eros elit ultricies risus, eu
-          tincidunt dui libero at velit.
-        </p>
-        <p>
-          Quisque vitae libero sed purus tincidunt venenatis. Sed sed urna sit
-          amet elit tempor ultricies. Nullam vel felis nec justo varius laoreet.
-        </p>
-        <p>
-          Proin suscipit, nisl non euismod aliquet, massa est facilisis massa,
-          ut consequat nunc neque non elit.
-        </p>
-      </div>
-      <div>
-        <p>
-          This is some extra content to ensure that the section is longer than
-          the viewport height. Scroll down to see more content...
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-          bibendum, libero id suscipit blandit, orci est cursus dui, vel
-          dignissim erat dolor in nulla.
-        </p>
-        <p>
-          Curabitur lacinia mi ac metus volutpat, a euismod lectus bibendum.
-          Phasellus venenatis arcu at magna scelerisque, non venenatis mi
-          posuere.
-        </p>
-        <p>
-          Praesent non eros ac libero pharetra egestas. Vestibulum non tincidunt
-          nunc. Nulla facilisi. Donec dictum magna ac augue fermentum, id
-          scelerisque orci tincidunt.
-        </p>
-        <p>
-          Donec vel diam nisl. Aliquam erat volutpat. Morbi volutpat consequat
-          metus, vel varius nisi efficitur ut. Fusce fermentum interdum odio a
-          feugiat.
-        </p>
-        <p>
-          Integer ut lacus ac dolor dictum dictum. Aliquam erat volutpat. Sed
-          aliquet, nisl ac tincidunt sodales, eros elit ultricies risus, eu
-          tincidunt dui libero at velit.
-        </p>
-        <p>
-          Quisque vitae libero sed purus tincidunt venenatis. Sed sed urna sit
-          amet elit tempor ultricies. Nullam vel felis nec justo varius laoreet.
-        </p>
-        <p>
-          Proin suscipit, nisl non euismod aliquet, massa est facilisis massa,
-          ut consequat nunc neque non elit.
-        </p>
-      </div>
+      </article>
     </section>
   );
 }

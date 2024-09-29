@@ -24,19 +24,13 @@ export default function Header() {
             Home
           </Link>
           <Link
-            href="/skills"
-            className="hover:bg-[#2c5c4d] hover:text-white p-1 rounded transition duration-300"
-          >
-            Skills
-          </Link>
-        </menu>
-        <menu className="flex flex-row gap-2">
-          <Link
             href="/work"
             className="hover:bg-[#2c5c4d] hover:text-white p-1 rounded transition duration-300"
           >
             Work
           </Link>
+        </menu>
+        <menu className="flex flex-row gap-2">
           <Link
             href="https://dev.to/trae_z"
             target="_blank"

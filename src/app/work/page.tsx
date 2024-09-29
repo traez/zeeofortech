@@ -1,9 +1,9 @@
-import React from "react";
+import Projects from "@/components/Projects";
 
 export default function WorkPage() {
   return (
     <>
-      <div>Work page</div>
+      <Projects/>
     </>
   );
 }
