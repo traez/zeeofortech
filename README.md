@@ -54,7 +54,7 @@ The class `-mx-4` in Tailwind CSS applies the following styles:
     margin-left: -1rem; /* -16px */
     margin-right: -1rem; /* -16px */
 }</blockquote>  
-Instead of creating space between the container and the parent container, it allows the container to extend beyond the parent. This is a clever way to make the container width equal to that of the parent container.  
+Instead of creating space between the container and the parent container, it allows the container to extend beyond the parent. This is a clever way to make the container width equal to that of the parent container.    
 
 - **Dynamic Copyright Year**  
 Using this ensures that the copyright year updates automatically each year: `© {new Date().getFullYear()}`  
@@ -69,7 +69,11 @@ By leveraging Tailwind's utility classes, I created an efficient and visually ap
     * `group-hover:opacity-100`: Makes the dropdown fully opaque on hover.  
     * `transition-all duration-300`: Adds a smooth transition effect. 
     
-The combination of visibility and opacity changes creates a fade-in effect when hovering. This technique provides a clean, CSS-only solution for dropdown menus without requiring JavaScript.   
+The combination of visibility and opacity changes creates a fade-in effect when hovering. This technique provides a clean, CSS-only solution for dropdown menus without requiring JavaScript. 
+
+- **Markdown preview**  
+Using `Ctrl + Shift + V` in Visual Studio Code (VSCode) opens the Markdown preview for the currently active Markdown file, displaying its rendered content in a separate pane. This feature is built into VSCode by default, allowing for real-time updates as you edit the Markdown file, which means you can see how your formatting appears without needing to refresh manually.  
+You may also right click and select `"open preview"` option.
 
 ### Continued development
 
