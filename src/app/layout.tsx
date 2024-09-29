@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Zeeofor Technologies",
+  title: "Home Page - Zeeofor Technologies",
   description: "Created by Trae Zeeofor",
 };
 
