@@ -24,7 +24,7 @@ My goal for creating a web developer portfolio website is to showcase my skills 
 
 ### Screenshot
 
-![](/screenshot-desktop.png)
+![](/public/screenshot-desktop.png)
 
 ### Links
 
@@ -48,19 +48,26 @@ My goal for creating a web developer portfolio website is to showcase my skills 
 
 ### What I learned
    
- - **Understanding -mx-4 in Tailwind CSS**  
+- **Understanding -mx-4 in Tailwind CSS**  
 The class `-mx-4` in Tailwind CSS applies the following styles:  
 <blockquote>.-mx-4 {
     margin-left: -1rem; /* -16px */
     margin-right: -1rem; /* -16px */
-}</blockquote>
+}</blockquote>  
+Instead of creating space between the container and the parent container, it allows the container to extend beyond the parent. This is a clever way to make the container width equal to that of the parent container.  
 
- - **Tailwind CSS Dark Mode Configuration**  
-The `darkMode: ["class"]` configuration  
- - **Tailwind CSS Dark Mode Configuration**  
-The `darkMode: ["class"]` configuration  
- - **Tailwind CSS Dark Mode Configuration**  
-The `darkMode: ["class"]` configuration  
+- **Dynamic Copyright Year**  
+Using this ensures that the copyright year updates automatically each year: `© {new Date().getFullYear()}`  
+- **Efficient Dropdown Interaction with Tailwind CSS**  
+By leveraging Tailwind's utility classes, I created an efficient and visually appealing dropdown interaction. Here’s how to implement it:
+1) Use the group class on the parent element to enable hover effects on child elements.  
+2) Apply these classes to the dropdown container:  
+    invisible: Hides the dropdown by default.
+    group-hover:visible: Shows the dropdown when the parent is hovered.
+    opacity-0: Makes the dropdown fully transparent initially.
+    group-hover:opacity-100: Makes the dropdown fully opaque on hover.
+    transition-all duration-300: Adds a smooth transition effect.
+The combination of visibility and opacity changes creates a fade-in effect when hovering. This technique provides a clean, CSS-only solution for dropdown menus without requiring JavaScript.   
 
 ### Continued development
 
