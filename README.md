@@ -58,6 +58,7 @@ Instead of creating space between the container and the parent container, it all
 
 - **Dynamic Copyright Year**  
 Using this ensures that the copyright year updates automatically each year: `© {new Date().getFullYear()}`  
+
 - **Efficient Dropdown Interaction with Tailwind CSS**  
 By leveraging Tailwind's utility classes, I created an efficient and visually appealing dropdown interaction. Here’s how to implement it:
 1) Use the group class on the parent element to enable hover effects on child elements.  
@@ -66,7 +67,8 @@ By leveraging Tailwind's utility classes, I created an efficient and visually ap
     * `group-hover:visible`: Shows the dropdown when the parent is hovered.  
     * `opacity-0`: Makes the dropdown fully transparent initially.  
     * `group-hover:opacity-100`: Makes the dropdown fully opaque on hover.  
-    * `transition-all duration-300`: Adds a smooth transition effect.  
+    * `transition-all duration-300`: Adds a smooth transition effect. 
+    
 The combination of visibility and opacity changes creates a fade-in effect when hovering. This technique provides a clean, CSS-only solution for dropdown menus without requiring JavaScript.   
 
 ### Continued development
