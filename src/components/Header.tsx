@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { LuMail } from "react-icons/lu";
+import { LuMail, LuExternalLink } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { SiLeetcode, SiStackoverflow } from "react-icons/si";
@@ -34,9 +34,12 @@ export default function Header() {
           <Link
             href="https://dev.to/trae_z"
             target="_blank"
-            className="hover:bg-[#2c5c4d] hover:text-white p-1 rounded transition duration-300"
+            rel="noopener noreferrer"
+            className="hover:bg-[#2c5c4d] hover:text-white p-1 rounded transition duration-300 flex items-center gap-1"
           >
-            Writings
+            <span>Writings</span>
+            <LuExternalLink className="text-xs" aria-hidden="true" />
+            <span className="sr-only">(opens in a new tab)</span>
           </Link>
           <section className="relative group">
             <button className="hover:bg-[#2c5c4d] hover:text-white p-1 rounded transition duration-300">
