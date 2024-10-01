@@ -73,7 +73,10 @@ The combination of visibility and opacity changes creates a fade-in effect when 
 
 - **Markdown preview**  
 Using `Ctrl + Shift + V` in Visual Studio Code (VSCode) opens the Markdown preview for the currently active Markdown file, displaying its rendered content in a separate pane. This feature is built into VSCode by default, allowing for real-time updates as you edit the Markdown file, which means you can see how your formatting appears without needing to refresh manually.  
-You may also right click and select `"open preview"` option.
+You may also right click and select `"open preview"` option.  
+
+- **Implementing External Link Indicators**  
+I implemented external link indicators `(e.g., ↗️)` for links that navigate outside the site or open in a new tab. This is a common web convention that improves user experience by clearly signaling when users are leaving the current site. It enhances usability and accessibility, helping users make informed decisions about navigating external resources. This was an important design consideration to ensure transparency and a smoother browsing experience for users.
 
 ### Continued development
 
