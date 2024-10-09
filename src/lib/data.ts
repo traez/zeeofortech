@@ -135,6 +135,14 @@ const projectsArray: Array<DataType> = [
         website: "https://mondaymotivationng.vercel.app/", // Replace with actual URL
         relevance: "This motivational quotes platform empowers users to share, manage, and engage with quotes through voting and commenting. By fostering community interaction and personalization with theme toggling, it enhances user experience and promotes a culture of inspiration and support.", // Adjust relevance as needed
         screenshot: "/ss-mondaymotivationng.png",
+    },
+    {
+        name: "trams-africa-ride-booking-dashboard",
+        category: "Productivity Tools",
+        sourceCode: "https://github.com/traez/trams-africa-ride-booking-dashboard", 
+        website: "https://trams-africa-ride-booking-dashboard.vercel.app/", 
+        relevance: "This ride-booking dashboard streamlines travel planning by allowing users to book, edit, or cancel rides while integrating real-time data for accurate vehicle details and pricing. Featuring dynamic forms, responsive design, and API integrations, it offers a seamless, user-friendly experience for managing trips.", 
+        screenshot: "/ss-trams-africa-ride-booking-dashboard.png",
     }
 ];
 
