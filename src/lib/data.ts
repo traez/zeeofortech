@@ -141,7 +141,7 @@ const projectsArray: Array<DataType> = [
         category: "Productivity Tools",
         sourceCode: "https://github.com/traez/trams-africa-ride-booking-dashboard", 
         website: "https://trams-africa-ride-booking-dashboard.vercel.app/", 
-        relevance: "This ride-booking dashboard streamlines travel planning by allowing users to book, edit, or cancel rides while integrating real-time data for accurate vehicle details and pricing. Featuring dynamic forms, responsive design, and API integrations, it offers a seamless, user-friendly experience for managing trips.", 
+        relevance: "This ride-booking dashboard simplifies travel planning, enabling users to book, edit, or cancel rides with real-time vehicle details and pricing. Featuring dynamic forms, responsive design, and API integrations, it delivers a seamless, user-friendly experience for managing trips.", 
         screenshot: "/ss-trams-africa-ride-booking-dashboard.png",
     }
 ];
