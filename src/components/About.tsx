@@ -42,10 +42,10 @@ export default function About() {
         <p className="mb-4">
           When I’m not bonding with my son, you’ll probably find me programming
           and collaborating with others, primarily using the{" "}
-          <span className="font-medium text-green-600">Tailwind CSS</span>,{" "}
-          <span className="font-medium text-blue-500">TypeScript</span>,{" "}
-          <span className="font-medium text-black">Next.js</span>, and{" "}
-          <span className="font-medium text-yellow-600">PostgreSQL</span> stack.
+          <span className="font-semibold text-green-600">Tailwind CSS</span>,{" "}
+          <span className="font-semibold text-blue-500">TypeScript</span>,{" "}
+          <span className="font-semibold text-[#7e7c58]">Next.js</span>, and{" "}
+          <span className="font-semibold text-yellow-600">PostgreSQL</span> stack.
         </p>
         <p className="mb-4">
           For me,{" "}
