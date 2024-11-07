@@ -44,17 +44,13 @@ export default function About() {
           and collaborating with others, primarily using the{" "}
           <span className="font-medium text-green-600">Tailwind CSS</span>,{" "}
           <span className="font-medium text-blue-500">TypeScript</span>,{" "}
-          <span className="font-medium text-purple-700">React</span>,{" "}
           <span className="font-medium text-black">Next.js</span>, and{" "}
-          <span className="font-medium text-yellow-600">MongoDB</span> stack.
+          <span className="font-medium text-yellow-600">PostgreSQL</span> stack.
         </p>
         <p className="mb-4">
           For me,{" "}
-          <span className="font-semibold italic">upskilling never stops</span>;
-          and so I’m currently expanding my knowledge by learning about the{" "}
-          <span className="font-medium text-blue-700">PostgreSQL</span>{" "}
-          relational database management system.
-        </p>
+          <span className="font-semibold italic">upskilling never stops</span>,
+          so I’m currently expanding my knowledge by learning about <span className="font-semibold italic">other related technologies</span>.</p>
         <p className="mt-6">
           <span className="font-semibold">
             If you’re as passionate about turning ideas into solutions as I am,
