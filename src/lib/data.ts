@@ -143,6 +143,14 @@ const projectsArray: Array<DataType> = [
         website: "https://trams-africa-ride-booking-dashboard.vercel.app/", 
         relevance: "This ride-booking dashboard simplifies travel planning, enabling users to book, edit, or cancel rides with real-time vehicle details and pricing. Featuring dynamic forms, responsive design, and API integrations, it delivers a seamless, user-friendly experience for managing trips.", 
         screenshot: "/ss-trams-africa-ride-booking-dashboard.png",
+    },
+    {
+        name: "lendsqr-fe-test",
+        category: "Figma-to-Code Projects",
+        sourceCode: "https://github.com/traez/lendsqr-fe-test", 
+        website: "https://tochukwu-ezeokafor-lendsqr-fe-test.vercel.app/", 
+        relevance: "This app provides a user-friendly interface for account management, with responsive login, dashboard, user list, and detail pages. It offers smooth navigation, efficient data handling, and high-quality design, optimized for desktop and mobile devices", 
+        screenshot: "/ss-lendsqr-fe-test.png",
     }
 ];
 
