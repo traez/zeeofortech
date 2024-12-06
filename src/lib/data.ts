@@ -151,6 +151,14 @@ const projectsArray: Array<DataType> = [
         website: "https://tochukwu-ezeokafor-lendsqr-fe-test.vercel.app/", 
         relevance: "This app provides a user-friendly interface for account management, with responsive login, dashboard, user list, and detail pages. It offers smooth navigation, efficient data handling, and high-quality design, optimized for desktop and mobile devices", 
         screenshot: "/ss-lendsqr-fe-test.png",
+    },
+    {
+        name: "naija-japa-postgresql-app",
+        category: "Full Stack Apps",
+        sourceCode: "https://github.com/traez/naija-japa-postgresql-app", 
+        website: "https://naija-japa-postgresql-app.vercel.app",
+        relevance: "The app enables users to explore and filter profiles of Nigerians abroad based on attributes like age, gender, and location, utilizing PostgreSQL and Supabase for dynamic data fetching and efficient filtering with an intuitive interface.", 
+        screenshot: "/ss-naija-japa-postgresql-app.png",
     }
 ];
 
