@@ -8,7 +8,7 @@ import { RiTwitterXLine } from "react-icons/ri";
 
 export default function Header() {
   return (
-    <nav className="sticky top-0 z-50 bg-[#9FE2BF] text-black border-b-[5px] border-black p-1 shadow-md -mx-4 mb-4 flex flex-col justify-center items-center gap-1 md:flex-row md:justify-between">
+    <nav className="sticky top-0 z-50 bg-[#9FE2BF] text-black border-[5px] border-black p-1 shadow-md   flex flex-col justify-center items-center gap-1 md:flex-row md:justify-between max-w-[1280px]">
       <Link
         href="/"
         className="text-2xl font-bold whitespace-nowrap hover:bg-[#2c5c4d] hover:text-white p-1 rounded transition duration-300"

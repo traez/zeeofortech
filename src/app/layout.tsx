@@ -17,11 +17,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="font-trebuchetMs antialiased flex flex-col h-full border-[10px] border-[#097969]"
+      className="font-trebuchetMs antialiased flex flex-col justify-center items-center h-full border-[10px] border-[#097969]"
     >
-      <body className="flex flex-col h-full border-[5px] border-black px-4 bg-[url('/background-green-square-pattern.jpg')] bg-contain bg-repeat bg-center">
+      <body className="flex flex-col h-full bg-[#097969]">
         <Header />
-        <main className="flex-grow overflow-auto">{children}</main>
+        <main className="flex-grow overflow-auto max-w-[1280px] border-x-[5px] border-black bg-[url('/background-green-square-pattern.jpg')] bg-contain bg-repeat bg-center p-4">{children}</main>
         <Footer />
         <SpeedInsights />
       </body>

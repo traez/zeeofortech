@@ -15,6 +15,20 @@ const config: Config = {
       fontFamily: {
         trebuchetMs: ['Trebuchet MS'],
       },
+      animation: {
+        'scroll-to-right': 'scrollToRight 10s linear infinite',
+        'scroll-to-left': 'scrollToLeft 10s linear infinite',
+      },
+      keyframes: {
+        scrollToRight: {
+          'from': { transform: 'translateX(-100%)' },
+          'to': { transform: 'translateX(100%)' },
+        },
+        scrollToLeft: {
+          'from': { transform: 'translateX(100%)' },
+          'to': { transform: 'translateX(-100%)' },
+        },
+      },
     },
   },
   plugins: [],

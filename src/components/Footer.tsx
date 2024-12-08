@@ -46,7 +46,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="sticky bottom-0 z-50 bg-[#9FE2BF] text-xs text-black border-t-[5px] border-black p-1 shadow-md -mx-4 mt-4 flex flex-col justify-center items-center gap-1 md:flex-row md:justify-around">
+    <footer className="sticky bottom-0 z-50 bg-[#9FE2BF] text-xs text-black border-[5px] border-black p-1 shadow-md flex flex-col justify-center items-center gap-1 md:flex-row md:justify-around max-w-[1280px]">
       <div className="">
         © {new Date().getFullYear()} Zeeofor Technologies. All rights reserved.
       </div>
