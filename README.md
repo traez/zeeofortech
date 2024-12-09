@@ -78,6 +78,9 @@ You may also right click and select `"open preview"` option.
 - **Implementing External Link Indicators**  
 I implemented external link indicators `(e.g., ↗️)` for links that navigate outside the site or open in a new tab. This is a common web convention that improves user experience by clearly signaling when users are leaving the current site. It enhances usability and accessibility, helping users make informed decisions about navigating external resources. This was an important design consideration to ensure transparency and a smoother browsing experience for users.
 
+- **Practical CSS Animations and Transitions**  
+I discovered that animations are great for complex, multi-step effects that can run on their own, like the spinning loaders I implemented. On the flip side, transitions came in handy for smoothing out changes between two states, especially for user interactions. I found myself using @keyframes for more intricate animations, while relying on simple transitions for quick state changes. One cool trick I picked up was using `transform transition-transform duration-200` to create smooth scaling effects. I also learned how to add some flair to my cards with `hover:scale-105 hover:shadow-lg`, which makes them slightly larger and adds a shadow when hovered over.
+
 ### Continued development
 
 - More projects; increased competence!
