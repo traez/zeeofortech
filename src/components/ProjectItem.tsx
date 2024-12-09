@@ -17,7 +17,7 @@ export default function ProjectItem({
   relevance,
 }: ProjectItemProps) {
   return (
-    <div className="bg-white border-2 border-black rounded-lg shadow-md overflow-hidden">
+    <div className="bg-white border-2 border-black rounded-lg shadow-md overflow-hidden transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
       <div className="relative w-full h-48">
         <Image
           src={screenshot}
