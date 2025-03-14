@@ -3,6 +3,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BprogressProvider from "@/lib/BprogressProvider";
 
 export const metadata: Metadata = {
   title: "Home Page - Zeeofor Technologies",
@@ -20,10 +21,14 @@ export default function RootLayout({
       className="font-trebuchetMs antialiased flex flex-col justify-center items-center h-full border-[10px] border-[#097969]"
     >
       <body className="flex flex-col h-full bg-[#097969]">
-        <Header />
-        <main className="flex-grow overflow-auto max-w-[1280px] border-x-[5px] border-black bg-[url('/background-green-square-pattern.jpg')] bg-contain bg-repeat bg-center p-4">{children}</main>
-        <Footer />
-        <SpeedInsights />
+        <BprogressProvider>
+          <Header />
+          <main className="flex-grow overflow-auto max-w-[1280px] border-x-[5px] border-black bg-[url('/background-green-square-pattern.jpg')] bg-contain bg-repeat bg-center p-4">
+            {children}
+          </main>
+          <Footer />
+          <SpeedInsights />
+        </BprogressProvider>
       </body>
     </html>
   );
