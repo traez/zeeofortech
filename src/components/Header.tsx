@@ -5,6 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { SiLeetcode, SiStackoverflow } from "react-icons/si";
 import { RiTwitterXLine } from "react-icons/ri";
+import { SiBlogger } from "react-icons/si";
+import { ImOffice } from "react-icons/im";
 
 export default function Header() {
   return (
@@ -99,6 +101,24 @@ export default function Header() {
               >
                 <RiTwitterXLine size="18px" />
                 <span>Twitter</span>
+              </a>
+              <a
+                href="http://www.traedays.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                <SiBlogger size="18px" />
+                <span>Blogger</span>
+              </a>
+              <a
+                href="https://zeeofor.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                <ImOffice size="18px" />
+                <span>Company</span>
               </a>
             </article>
           </section>

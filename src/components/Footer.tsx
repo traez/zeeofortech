@@ -4,6 +4,8 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
 import { SiStackoverflow } from "react-icons/si";
 import { RiTwitterXLine } from "react-icons/ri";
+import { SiBlogger } from "react-icons/si";
+import { ImOffice } from "react-icons/im";
 
 const socialLinks = [
   {
@@ -19,13 +21,13 @@ const socialLinks = [
     size: "22px",
   },
   {
-    href: "https://linkedin.com/in/traez/",
+    href: "https://linkedin.com/in/traez",
     title: "LinkedIn",
     Icon: AiOutlineLinkedin,
     size: "26px",
   },
   {
-    href: "https://leetcode.com/u/traezeeofor/",
+    href: "https://leetcode.com/u/traezeeofor",
     title: "LeetCode",
     Icon: SiLeetcode,
     size: "22px",
@@ -40,6 +42,18 @@ const socialLinks = [
     href: "https://twitter.com/trae_z",
     title: "TwitterX",
     Icon: RiTwitterXLine,
+    size: "22px",
+  },
+  {
+    href: "http://www.traedays.com",
+    title: "Blogger",
+    Icon: SiBlogger,
+    size: "22px",
+  },
+  {
+    href: "https://zeeofor.tech",
+    title: "Company",
+    Icon: ImOffice,
     size: "22px",
   },
 ];
