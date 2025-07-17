@@ -82,17 +82,6 @@ const projectsArray: Array<DataType> = [
     screenshot: "/ss-dictionary-web-app.png",
   },
   {
-    name: "rest-countries-api-with-color-theme-switcher",
-    category: "Educational Resources",
-    sourceCode:
-      "https://github.com/traez/rest-countries-api-with-color-theme-switcher",
-    website:
-      "https://rest-countries-api-with-color-theme-switcher-traez.vercel.app/",
-    relevance:
-      "This Country Explorer App helps users discover and learn about countries worldwide with search, filter, and detailed view features. It provides region-based filtering, border country navigation, and theme toggling, offering an interactive and informative way to explore global data.", // Adjust relevance as needed
-    screenshot: "/ss-rest-countries-api-with-color-theme-switcher.png",
-  },
-  {
     name: "random-reasons-generator-app",
     category: "Educational Resources",
     sourceCode: "https://github.com/traez/random-reasons-generator-app",
@@ -118,15 +107,6 @@ const projectsArray: Array<DataType> = [
     relevance:
       "The Password Generator App creates secure passwords based on selected criteria, provides strength ratings, and allows easy copying to the clipboard. It enhances online security by helping users generate strong, customizable passwords, ensuring safer account protection across devices.", // Adjust relevance as needed
     screenshot: "/ss-password-generator-app.png",
-  },
-  {
-    name: "url-shortening-api-landing-page",
-    category: "Productivity Tools",
-    sourceCode: "https://github.com/traez/url-shortening-api-landing-page",
-    website: "https://url-shortening-api-landing-page-traez.vercel.app/",
-    relevance:
-      "The URL Shortener App simplifies link management by converting long URLs into shorter ones for easier sharing. Users can copy links with a single click and access their shortened URLs even after refreshing. It streamlines link sharing, making it more convenient and organized.", // Adjust relevance as needed
-    screenshot: "/ss-url-shortening-api-landing-page.png",
   },
   {
     name: "nigerian-inflation-tracker-2024",
